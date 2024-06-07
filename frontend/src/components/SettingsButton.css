@@ -1,0 +1,62 @@
+.settings-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.settings-menu {
+    list-style-type: none; /* Remove list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.settings-menu li {
+    padding: 10px 20px;
+}
+
+.settings-menu li a,
+.settings-menu li button {
+    text-decoration: none;
+    color: black;
+    display: block;
+    /* width: 100%; */
+    /* text-align: left; */
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.settings-menu li button {
+    cursor: pointer;
+}
+
+.settings-menu li a:hover,
+.settings-menu li button:hover {
+    background-color: #f1f1f1;
+}
